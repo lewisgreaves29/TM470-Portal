@@ -1,0 +1,5 @@
+.custom-domains-container {
+    display: flex;
+    flex-direction: row;  /* Adjust to row */
+    height: 100vh;
+}

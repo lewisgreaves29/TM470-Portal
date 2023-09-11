@@ -1,0 +1,54 @@
+/* Shared Sidebar Styles */
+
+.sidebar-container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.logo {
+    width: 150px;
+    height: 150px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.sidebar-menu {
+    width: 200px;
+    border-right: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    padding: 20px 0;
+    height: 100%;  /* This ensures the sidebar takes up the full height */
+    background-color: #ccc;;
+    color: black;
+}
+
+.sidebar-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar-menu li {
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.content {
+    flex-grow: 1;  /* Ensures the content area takes up the remaining width */
+    padding: 20px;
+    border-top: 150px solid #ccc;
+}
+
+.page-title {
+    margin-top: 20px; /* Adjust as needed */
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.active {
+    background-color: #2d23b9;
+}

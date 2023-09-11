@@ -1,0 +1,58 @@
+.fallback-urls-container {
+    display: flex;
+    flex-direction: row;  /* Adjust to row */
+    height: 100vh;
+}
+
+
+.table-container {
+    width: 100%;
+    overflow-x: auto;  /* Helps with responsiveness if table width exceeds container */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+button {
+    margin-right: 10px;
+}
+
+.table-wrapper {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.main-table {
+    flex-basis: 60%;  
+}
+
+.secondary-table {
+    flex-basis: calc(40% - 20px); 
+    padding-left: 20px; 
+}
+
+.popup-form {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 1000; 
+}
